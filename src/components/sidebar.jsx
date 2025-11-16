@@ -69,7 +69,7 @@ const Sidebar = () => {
         <div className="bottom-0 hidden lg:block left-0 w-full h-full p-4 bg-[#282142]/50 rounded-b-2xl text-center text-gray-400">
           <div className=" flex flex-col justify-center items-center w-full h-full">
             <img className="w-20" src={assets.logo_icon} alt="hi" />
-            <p className="text-lg">Select a chat to start messaging</p>
+            <p className="text-lg">Select a chat fot messaging</p>
           </div>
         </div>
       )}
