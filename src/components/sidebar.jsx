@@ -51,7 +51,7 @@ const Sidebar = () => {
                 <p className="text-white text-sm font-semibold">{user.fullName}</p>
                 {
                     onlineUsers.includes(user._id) 
-                    ?<span className="text-green-500 text-xs">online</span>
+                    ?<span className="text-green-500 text-xs">Online</span>
                     :<span className="text-gray-400 text-xs">offline</span>
                 }
               </div>
