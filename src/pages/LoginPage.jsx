@@ -73,7 +73,8 @@ const Loginpage = () => {
         </div>
         <div className='text-gray-300 text-[14px] mt-4 mb-2'>
         {curentState === "Sign Up" ? (
-          <p className='text-gray-400'>Already have an account? <Link href="" onClick={() => {setcurentState("Login"); setisDataSubmited(false)}} className='text-violet-500 font-medium'>Login here</Link></p>
+          <p className='text-gray-400'>Already have an account? <Link href="" onClick={() => {setcurentState("Login"); setisDataSubmited(false)}} className='text-violet-500 font-medium'>Login now
+          </Link></p>
         ): (
           <p className='text-gray-400'>Create an account <Link href="" onClick={() => setcurentState("Sign Up")} className='text-violet-500 font-medium'>Click here</Link></p>
         )}
