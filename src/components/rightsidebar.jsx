@@ -24,7 +24,7 @@ if ( !selectedChat) return null;
       </div>
       <div className='w-full h-[60vh] flex flex-col  items-end justify-center text-gray-400 pb-4 px-8'>
         <div className='h-full w-full overflow-hidden mb-3'>
-          <p className='w-full text-center'>Media</p>
+          <p className='w-full text-center'>Medias</p>
           {msgImages.length > 0 ? <div className='flex justify-center flex-wrap w-full h-full gap-2 mt-1 pb-8 overflow-y-scroll'>
                 {msgImages.map((url, index) => (
                   <div className='w-[100px] h-[100px]' key={index} onClick={()=>{window.open(url)}}>
