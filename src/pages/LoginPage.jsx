@@ -69,7 +69,7 @@ const Loginpage = () => {
         </div>
         <div className='flex items-center gap-2 text-gray-300 text-[14px]'>
           <input type="checkbox" />
-          <p className='text-gray-400'>Agree to the terms of use & privacy policy.</p>
+          <p className='text-gray-400'>Agree to the terms of use & privacy policys.</p>
         </div>
         <div className='text-gray-300 text-[14px] mt-4 mb-2'>
         {curentState === "Sign Up" ? (
