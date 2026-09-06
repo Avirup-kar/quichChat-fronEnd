@@ -31,7 +31,7 @@ if ( !selectedChat) return null;
                     <img src={url} alt={`media-${index}`} className='w-full h-full object-cover rounded-lg cursor-pointer' />
                   </div>
                 ))}
-          </div> : <p className='text-center my-40 text-gray-600'>No media found</p>}
+          </div> : <p className='text-center my-40 text-gray-600'>No media found yet!</p>}
         </div>
         <button type="button" onClick={() => logout()} className="text-white w-full bg-gradient-to-r from-purple-400 via-purple-500 to-purple-700 hover:bg-gradient-to-br cursor-pointer rounded-full text-sm px-5 py-2.5 text-center">Logout</button>
       </div>
